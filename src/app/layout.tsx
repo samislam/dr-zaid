@@ -1,5 +1,4 @@
 import localFont from 'next/font/local'
-import { PropsWithChildren } from 'react'
 import { ThemeProvider } from 'next-themes'
 import appConfig from '@/config/app.config'
 import { getLocale } from 'next-intl/server'
