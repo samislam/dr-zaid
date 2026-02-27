@@ -8,6 +8,7 @@ import { ClientPlugger } from './client-plugger'
 import { AppLanguages } from '@/types/app.types'
 import { pageDefs } from '@/config/pages.config'
 import { NextIntlClientProvider } from 'next-intl'
+import { LayoutProps } from '@/lib/next/next-types'
 import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import { getStaticData } from '@/lib/tolgee/tolgee-shared'
 import { TolgeeNextProvider } from '@/lib/tolgee/tolgee-client'
@@ -18,11 +19,7 @@ import { TolgeeLoadingScreen } from '@/components/common/tolgee-loading-screen'
 import { TanstackQueryProvider } from '@/lib/tanstack-query/tanstack-query-provider'
 import './globals.css'
 
-interface Props extends PropsWithChildren {
-  params: Promise<{ locale: string }>
-}
-
-export default async function RootLayout(props: Props) {
+export default async function RootLayout(props: LayoutProps<{ Params: { locale: string } }>) {
   const { children } = props
   const locale = (await getLocale()) as AppLanguages // # your logic to fetch the specific user locale
   const locales = await getStaticData([appConfig.fallbackLanguage, locale])
