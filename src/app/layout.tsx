@@ -18,7 +18,7 @@ import { TolgeeLoadingScreen } from '@/components/common/tolgee-loading-screen'
 import { TanstackQueryProvider } from '@/lib/tanstack-query/tanstack-query-provider'
 import './globals.css'
 
-export default async function RootLayout(props: LayoutProps<{ Params: { locale: string } }>) {
+export default async function RootLayout(props: LayoutProps) {
   const { children } = props
   const locale = (await getLocale()) as AppLanguages // # your logic to fetch the specific user locale
   const locales = await getStaticData([appConfig.fallbackLanguage, locale])
