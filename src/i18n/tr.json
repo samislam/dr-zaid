@@ -6,8 +6,8 @@
   "@t<error-page-tryagain-button-text>": "Tekrar dene",
   "@t<home-description>": "Kontroller, gülüş bakımı ve günlük ağız sağlığı için sakin ve modern bir diş kliniği.",
   "@t<home_meta": {
-    "description>": "Dr. Zaid Rayan'ın diş kliniğini modern bakım, koruyucu tedaviler ve hasta odaklı sakin bir deneyimle keşfedin.",
-    "title>": "Dr. Zaid Rayan | Diş Hekimi"
+    "description>": "Dr. Zaid Rayan’in kisisel web sitesini kesfedin; odak noktasi endodonti, kanal tedavisi ve hasta odakli dis bakimidir.",
+    "title>": "Dr. Zaid Rayan | Endodontist"
   },
   "@t<home-title>": "Dr. Zaid Rayan Diş Kliniği",
   "@t<landing.brand>": "Dr. Zaid Rayan",
@@ -58,5 +58,60 @@
   "@t<not-found-page-description>": "Aradığınız sayfa artık mevcut değil. Belki kaldırıldı ya da hiç orada değildi.",
   "@t<not-found-page-title>": "Bulunamadı!",
   "@t<switching-language-loading-screen-text>": "Dil değiştiriliyor...",
-  "@t<landing.header_subtitle>": "Modern diş kliniği"
+  "@t<landing.header_subtitle>": "Modern diş kliniği",
+  "@t<home-description": "Dr. Zaid Rayan’in kisisel web sitesi; endodonti, kanal tedavisi ve sakin modern dis bakimina odaklanir.",
+  "@t<home-title": "Dr. Zaid Rayan | Endodontist",
+  "@t<landing": {
+    "header_subtitle>": "Endodontist",
+    "hero": {
+      "eyebrow>": "Endodonti ve kanal tedavisi",
+      "title>": "Sakin ve hasta odakli bir yaklasimla hassas kanal tedavisi.",
+      "description>": "Bu kisisel site, ana uzmanlik alani kanal tedavisi olan endodontist Dr. Zaid Rayan’i tanitir; gerektiginde diger dis hekimligi hizmetleri de sunulur.",
+      "highlight_1": {
+        "title>": "Uzman odak",
+        "description>": "Dis agrisi, sinir enfeksiyonu ve kanal tedavisi vakalarinin teshis ve tedavisinde ozel dikkat."
+      },
+      "highlight_2": {
+        "title>": "Net tedavi adimlari",
+        "description>": "Her vaka sade bir dille anlatilir; hasta sorunu, plani ve sonraki adimi net sekilde anlar."
+      },
+      "highlight_3": {
+        "title>": "Ek dis hizmetleri",
+        "description>": "Diger dis hekimligi hizmetleri de sunulur, ancak ana uzmanlik alani endodonti ve kanal tedavisidir."
+      }
+    },
+    "services": {
+      "description>": "Temel uzmanlik alani kanal tedavisidir; gerektiginde tam bakim sunmak icin bunu destekleyen diger dis hizmetleri de vardir.",
+      "item_1": {
+        "title>": "Kanal tedavisi",
+        "description>": "Iltihapli veya enfekte dis sinirleri icin hassas ve sakin bir klinik yaklasimla uygulanan endodontik bakim."
+      },
+      "item_2": {
+        "title>": "Endodontik teshis",
+        "description>": "Dogru islemi belirlemeden once dis agrisi, pulpa durumu ve tedavi ihtiyacinin dikkatli sekilde degerlendirilmesi."
+      },
+      "item_3": {
+        "title>": "Takip ve restorasyon yonlendirmesi",
+        "description>": "Tedavi sonrasinda net takip destegi ve gerekiyorsa sonraki restoratif adimlar icin yonlendirme."
+      },
+      "item_4": {
+        "title>": "Diger dis hizmetleri",
+        "description>": "Baska genel dis hekimligi hizmetleri de mevcuttur; ancak ana uzmanlik alanı kanal tedavisidir."
+      },
+      "title>": "Kanal tedavisi merkezli uzman endodonti bakimi."
+    },
+    "doctor": {
+      "title>": "Dr. Zaid Rayan, dikkatli ve modern kanal tedavisine odaklanan bir endodontisttir.",
+      "description>": "Sam, Suriye’de dis hekimligi egitimi aldi ve 2025 yilinda mezun oldu. Ana uzmanlik alani endodontidir ve ozellikle kanal tedavisindeki becerisiyle taninir.",
+      "point_1>": "Sam, Suriye’de dis hekimligi egitimi aldi ve 2025 yilinda mezun oldu.",
+      "point_2>": "Endodonti alaninda uzmanlasmistir ve guclu odak noktasi kanal tedavisidir.",
+      "point_3>": "Ayni zamanda sakin ve acik sekilde anlatilan bir hasta deneyimiyle diger dis hizmetlerini de sunar."
+    },
+    "visit": {
+      "step_2": {
+        "title>": "Endodontik planlama",
+        "description>": "Disin durumu ve kanal tedavisinin mi yoksa baska bir hizmetin mi dogru sonraki adim oldugu net bicimde aciklanir."
+      }
+    }
+  }
 }

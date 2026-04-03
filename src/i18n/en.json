@@ -4,44 +4,46 @@
   "@t<error-page-help-line>": "If the issue persists, please contact the site administrator.",
   "@t<error-page-title>": "Oops!",
   "@t<error-page-tryagain-button-text>": "Try again",
+  "@t<home-description": "A personal website for Dr. Zaid Rayan, focused on endodontics, root canal treatment, and calm modern dental care.",
   "@t<home-description>": "A calm, modern dental clinic for checkups, smile care, and everyday oral health.",
   "@t<home_meta": {
-    "description>": "Discover Dr. Zaid Rayan's dental clinic website with modern care, preventive treatments, and a calm patient-first experience.",
-    "title>": "Dr. Zaid Rayan | Dentist"
+    "description>": "Discover Dr. Zaid Rayan's personal website, focused on endodontics, root canal treatment, and patient-first dental care.",
+    "title>": "Dr. Zaid Rayan | Endodontist"
   },
+  "@t<home-title": "Dr. Zaid Rayan | Endodontist",
   "@t<home-title>": "Dr. Zaid Rayan Dental Clinic",
   "@t<landing": {
     "brand>": "Dr. Zaid Rayan",
     "doctor": {
-      "description>": "The clinic is designed to keep every visit straightforward, calm, and clearly explained. Patients get honest guidance, modern treatment planning, and care that respects both comfort and long-term results.",
+      "description>": "He studied dentistry in Damascus, Syria, and graduated in 2025. His main specialization is endodontics, with root canal treatment as the area he is especially known for.",
       "eyebrow>": "About the doctor",
-      "point_1>": "Clear explanations before every treatment so patients always know what comes next.",
-      "point_2>": "A gentle, patient-first approach focused on comfort and trust.",
-      "point_3>": "Modern dental care built around healthy function and confident smiles.",
-      "title>": "Personal dental care built around comfort and clarity."
+      "point_1>": "Studied dentistry in Damascus, Syria and graduated in 2025.",
+      "point_2>": "Specialized in endodontics, with a strong focus on root canal treatment.",
+      "point_3>": "Offers other dental services as well, through a calm and clearly explained patient experience.",
+      "title>": "Dr. Zaid Rayan is an endodontist focused on careful, modern root canal care."
     },
     "footer": {
       "note>": "Simple, calm, and focused on healthy smiles."
     },
-    "header_subtitle>": "Modern dental clinic",
+    "header_subtitle>": "Endodontist",
     "hero": {
-      "description>": "Thoughtful dental care for routine checkups, smile improvements, and treatment plans that feel clear from the first conversation.",
-      "eyebrow>": "Modern dental care",
+      "description>": "This personal website introduces Dr. Zaid Rayan, an endodontist whose main specialty is root canal treatment, with additional dental services available when needed.",
+      "eyebrow>": "Endodontics & root canal care",
       "highlight_1": {
-        "description>": "Regular exams and preventive care to keep problems small and smiles healthy.",
-        "title>": "Preventive focus"
+        "description>": "Special attention to diagnosing and treating tooth pain, nerve infections, and root canal cases with precision.",
+        "title>": "Endodontic focus"
       },
       "highlight_2": {
-        "description>": "Every step is explained in plain language so treatment feels calm and easy to follow.",
-        "title>": "Comfort first"
+        "description>": "Each case is explained simply so patients understand the problem, the plan, and what to expect next.",
+        "title>": "Clear treatment steps"
       },
       "highlight_3": {
-        "description>": "Personalized plans shaped around your needs, priorities, and smile goals.",
-        "title>": "Personalized plans"
+        "description>": "Other dental services are available too, while endodontics and RCT remain the main area of specialization.",
+        "title>": "Broader dental care"
       },
       "primary_cta>": "See how visits work",
       "secondary_cta>": "Explore services",
-      "title>": "Healthy smiles start with calm, precise care."
+      "title>": "Precise root canal treatment with a calm, patient-first approach."
     },
     "nav": {
       "doctor>": "Doctor",
@@ -49,25 +51,25 @@
       "visit>": "Visit"
     },
     "services": {
-      "description>": "A focused set of dental services designed for prevention, restoration, and confident everyday care.",
+      "description>": "Root canal treatment is the core specialty, supported by other dental services that help patients receive complete care when needed.",
       "eyebrow>": "Services",
       "item_1": {
-        "description>": "Routine examinations, cleanings, and early guidance to protect long-term oral health.",
-        "title>": "Checkups & prevention"
+        "description>": "Focused endodontic care for inflamed or infected tooth nerves, handled with precision and a calm clinical approach.",
+        "title>": "Root canal treatment"
       },
       "item_2": {
-        "description>": "Careful restorative treatments that support comfort, function, and natural-looking results.",
-        "title>": "Restorative care"
+        "description>": "Careful assessment of tooth pain, pulp condition, and treatment needs before moving into the right procedure.",
+        "title>": "Endodontic diagnosis"
       },
       "item_3": {
-        "description>": "Cosmetic smile improvements designed to look clean, balanced, and natural.",
-        "title>": "Smile aesthetics"
+        "description>": "Clear follow-up support after treatment, with guidance on the next restorative steps when needed.",
+        "title>": "Follow-up & restoration guidance"
       },
       "item_4": {
-        "description>": "Treatment plans shaped around the patient, from first consultation to follow-up.",
-        "title>": "Personal treatment plans"
+        "description>": "Other general dental services are also available, while root canal treatment remains the main specialty.",
+        "title>": "Additional dental services"
       },
-      "title>": "Simple dental services that cover the care most patients need."
+      "title>": "Specialized endodontic care, centered on root canal treatment."
     },
     "visit": {
       "cta>": "Back to top",
@@ -78,8 +80,8 @@
         "title>": "Consultation"
       },
       "step_2": {
-        "description>": "Receive a clear explanation of findings and a treatment path that makes sense for you.",
-        "title>": "Treatment planning"
+        "description>": "Receive a clear explanation of the tooth condition and whether root canal treatment or another service is the right next step.",
+        "title>": "Endodontic planning"
       },
       "step_3": {
         "description>": "Move forward with care that prioritizes comfort, precision, and confident follow-up.",
