@@ -2,12 +2,14 @@
 
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import { LandingNavItem } from './types'
+import { useScroll } from '@/hooks/use-scroll'
 import { AnimatePresence } from 'framer-motion'
-import { ThemeSwitcher } from '@/components/common/theme-switcher'
+import { useFullPath } from '@/hooks/use-fullpath'
 import { MotionDiv } from '@/components/ui/samislam/motion'
 import { ScrollLink } from '@/components/ui/samislam/scroll-link'
+import { ThemeSwitcher } from '@/components/common/theme-switcher'
 import { LanguageSwitcher } from '@/components/common/language-switcher'
-import { LandingNavItem } from './types'
 
 interface LandingHeaderProps {
   brand: string
@@ -18,8 +20,19 @@ interface LandingHeaderProps {
 export const LandingHeader = (props: LandingHeaderProps) => {
   const { brand, subtitle, nav } = props
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [, scroll] = useScroll()
+  const fullPath = useFullPath()
 
   const closeMobileMenu = () => setIsMobileMenuOpen(false)
+  const handleMobileNavClick = (hash: string) => {
+    closeMobileMenu()
+    const id = hash.startsWith('#') ? hash.slice(1) : hash
+
+    window.setTimeout(() => {
+      scroll(id)
+      history.replaceState(null, '', `${fullPath}#${id}`)
+    }, 220)
+  }
 
   return (
     <header className="sticky top-0 z-30 border-b border-white/70 bg-white/80 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/70">
@@ -95,13 +108,13 @@ export const LandingHeader = (props: LandingHeaderProps) => {
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.2, delay: index * 0.04 }}
                     >
-                      <ScrollLink
-                        hash={item.href}
-                        onClick={closeMobileMenu}
-                        className="block rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-800 transition-all duration-200 hover:translate-x-1 hover:bg-slate-50 dark:border-white/10 dark:bg-white/5 dark:text-white dark:hover:bg-white/10"
+                      <button
+                        type="button"
+                        onClick={() => handleMobileNavClick(item.href)}
+                        className="block w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-800 transition-all duration-200 hover:translate-x-1 hover:bg-slate-50 dark:border-white/10 dark:bg-white/5 dark:text-white dark:hover:bg-white/10"
                       >
                         {item.label}
-                      </ScrollLink>
+                      </button>
                     </MotionDiv>
                   ))}
                 </nav>
