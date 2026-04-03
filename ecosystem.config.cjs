@@ -2,7 +2,7 @@
 module.exports = {
   apps: [
     {
-      name: 'next-web',
+      name: 'dr-zaid',
       script: 'dist/scripts/start.js',
       interpreter: 'bun',
       exec_mode: 'fork',
