@@ -16,6 +16,10 @@ export const serverEnv = createEnv({
     SENTRY_ORG: z.string(),
     SENTRY_PROJECT: z.string(),
     IMAGE_OPTIMIZATION: z.enum(['yes', 'no']).default('yes'),
+    RESEND_API_KEY: z.string().trim().optional(),
+    MAIL_FROM: z.string().trim().email().optional(),
+    DOCTOR_NOTIFICATION_EMAIL: z.string().trim().email().optional(),
+    MAIL_REPLY_TO: z.string().trim().email().optional(),
   },
   experimental__runtimeEnv: {
     PORT: process.env.PORT ? +process.env.PORT : undefined,
@@ -27,5 +31,9 @@ export const serverEnv = createEnv({
     SENTRY_ORG: process.env.SENTRY_ORG,
     SENTRY_PROJECT: process.env.SENTRY_PROJECT,
     IMAGE_OPTIMIZATION: process.env.IMAGE_OPTIMIZATION,
+    RESEND_API_KEY: process.env.RESEND_API_KEY,
+    MAIL_FROM: process.env.MAIL_FROM,
+    DOCTOR_NOTIFICATION_EMAIL: process.env.DOCTOR_NOTIFICATION_EMAIL,
+    MAIL_REPLY_TO: process.env.MAIL_REPLY_TO,
   },
 })
