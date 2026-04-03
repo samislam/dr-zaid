@@ -8,14 +8,14 @@ import { createAppConfig } from '@/utils/create-app-config'
 export default createAppConfig({
   appLogo: logo,
   defaultTheme: 'light',
-  defaultLanguage: 'en',
+  defaultLanguage: 'ar',
   fallbackLanguage: 'en',
   languages: ['en', 'ar', 'tr'],
   appName: 'Dr-zaid dentist | Damascus - Syria',
   appDescription: concat("@Dr-zaid ra'yyan's official website | الدكتور أحمد زيد الرعيان"),
   uploadDir: path.resolve(process.cwd(), 'storage', 'uploads'),
   i18nRoutingDef: {
-    localePrefix: 'never', // defaults to have no URL prefix (no /en/users, just /users)
+    localePrefix: 'always', // defaults to have no URL prefix (no /en/users, just /users)
     localeCookie: {
       name: LOCALE_COOKIE,
       secure: false,
