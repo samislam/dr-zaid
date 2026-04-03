@@ -2,6 +2,7 @@ import { LandingHeader } from './landing-header'
 import { ContactSection } from './contact-section'
 import { HeroSection } from './hero-section'
 import { LandingFooter } from './landing-footer'
+import { WhatsappFab } from '@/components/common/whatsapp-fab'
 import { DoctorSection } from './doctor-section'
 import { VisitSection } from './visit-section'
 import { LandingContent } from './types'
@@ -25,6 +26,7 @@ export const LandingPage = (props: LandingPageProps) => {
         <ContactSection contact={content.contact} />
       </main>
       <LandingFooter brand={content.brand} note={content.footer.note} />
+      <WhatsappFab />
     </div>
   )
 }

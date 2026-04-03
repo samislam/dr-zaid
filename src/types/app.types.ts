@@ -5,6 +5,15 @@ import { RequestConfig } from 'next-intl/server'
 
 type NextIntlRequestConfig = Pick<RequestConfig, 'formats' | 'timeZone' | 'now'>
 
+export interface AppCoordinates {
+  latitude: number
+  longitude: number
+}
+
+export interface AppContactInfo {
+  whatsappPhone?: string
+}
+
 export interface AppConfig<L extends string> {
   appName: string
   appDescription: string
@@ -14,6 +23,8 @@ export interface AppConfig<L extends string> {
   fallbackLanguage: NoInfer<L>
   readonly languages: Array<L>
   appLogo: string | StaticImageData
+  location?: AppCoordinates
+  contactInfo?: AppContactInfo
   i18nRoutingDef: AppLocaleRoutingDef<L>
   i18nFormattersDefaults?: (
     requestLocale: Promise<string | undefined>

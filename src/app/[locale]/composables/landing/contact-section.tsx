@@ -1,3 +1,5 @@
+import appConfig from '@/config/app.config'
+import { MapIframe } from '@/components/common/iframe-google-maps'
 import { LandingContent } from './types'
 import { SectionHeading } from './section-heading'
 import { AppointmentForm } from './appointment-form'
@@ -18,10 +20,12 @@ export const ContactSection = (props: ContactSectionProps) => {
             title={contact.title}
             description={contact.description}
           />
-          <div className="rounded-[1.75rem] border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5">
-            <p className="text-sm leading-7 text-slate-700 dark:text-slate-200">
-              {contact.helperText}
-            </p>
+          <div className="overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white/80 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5">
+            <MapIframe
+              latitude={appConfig.location?.latitude}
+              longitude={appConfig.location?.longitude}
+              height="320px"
+            />
           </div>
         </div>
 

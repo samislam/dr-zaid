@@ -13,6 +13,13 @@ export default createAppConfig({
   languages: ['en', 'ar', 'tr'],
   appName: 'Dr-zaid dentist | Damascus - Syria',
   appDescription: concat("@Dr-zaid ra'yyan's official website | الدكتور أحمد زيد الرعيان"),
+  location: {
+    latitude: 33.5164907130301,
+    longitude: 36.29192579766315,
+  },
+  contactInfo: {
+    whatsappPhone: '+963 940 203 338',
+  },
   uploadDir: path.resolve(process.cwd(), 'storage', 'uploads'),
   i18nRoutingDef: {
     localePrefix: 'always', // defaults to have no URL prefix (no /en/users, just /users)
