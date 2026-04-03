@@ -1,117 +1,125 @@
 {
   "@t<error-page-backhome-button-text>": "Ana Sayfa",
   "@t<error-page-description>": "Beklenmeyen bir hata oluştu!",
-  "@t<error-page-help-line>": "Sorun devam ederse, lütfen site yöneticisine başvurun.",
+  "@t<error-page-help-line>": "Sorun devam ederse, lütfen site yoneticisine basvurun.",
   "@t<error-page-title>": "Hata!",
   "@t<error-page-tryagain-button-text>": "Tekrar dene",
-  "@t<home-description>": "Kontroller, gülüş bakımı ve günlük ağız sağlığı için sakin ve modern bir diş kliniği.",
+  "@t<home-description>": "Dr. Zaid Rayan'in kisisel web sitesi; endodonti, kanal tedavisi ve sakin modern dis bakimina odaklanir.",
   "@t<home_meta": {
-    "description>": "Dr. Zaid Rayan’in kisisel web sitesini kesfedin; odak noktasi endodonti, kanal tedavisi ve hasta odakli dis bakimidir.",
+    "description>": "Dr. Zaid Rayan'in kisisel web sitesini kesfedin; odak noktasi endodonti, kanal tedavisi ve hasta odakli dis bakimidir.",
     "title>": "Dr. Zaid Rayan | Endodontist"
   },
-  "@t<home-title>": "Dr. Zaid Rayan Diş Kliniği",
-  "@t<landing.brand>": "Dr. Zaid Rayan",
-  "@t<landing.doctor.description>": "Klinik, her ziyaretin net, sakin ve anlaşılır olması için tasarlandı. Hastalar dürüst yönlendirme, modern tedavi planlaması ve hem konforu hem de uzun vadeli sonuçları önemseyen bir bakım süreci alır.",
-  "@t<landing.doctor.eyebrow>": "Doktor hakkında",
-  "@t<landing.doctor.point_1>": "Her tedavi öncesinde açık açıklamalar, böylece hasta sonraki adımı bilir.",
-  "@t<landing.doctor.point_2>": "Konfor ve güvene odaklanan nazik, hasta öncelikli bir yaklaşım.",
-  "@t<landing.doctor.point_3>": "Sağlıklı işlev ve güvenli gülüşler için modern diş bakımı.",
-  "@t<landing.doctor.title>": "Konfor ve açıklık etrafında şekillenen kişisel diş bakımı.",
-  "@t<landing.footer.note>": "Sade, sakin ve sağlıklı gülüşlere odaklı.",
-  "@t<landing.hero.description>": "Rutin kontroller, gülüş iyileştirmeleri ve ilk görüşmeden itibaren anlaşılır hissettiren tedavi planları için özenli diş bakımı.",
-  "@t<landing.hero.eyebrow>": "Modern diş bakımı",
-  "@t<landing.hero.highlight_1.description>": "Sorunları küçük tutmak ve gülüşleri korumak için düzenli muayeneler ve koruyucu bakım.",
-  "@t<landing.hero.highlight_1.title>": "Koruyucu yaklaşım",
-  "@t<landing.hero.highlight_2.description>": "Her adım sade bir dille anlatılır, böylece tedavi süreci sakin ve kolay takip edilir.",
-  "@t<landing.hero.highlight_2.title>": "Önce konfor",
-  "@t<landing.hero.highlight_3.description>": "İhtiyaçlarınıza, önceliklerinize ve gülüş hedeflerinize göre şekillenen planlar.",
-  "@t<landing.hero.highlight_3.title>": "Kişisel planlar",
-  "@t<landing.hero.primary_cta>": "Ziyaret sürecini gör",
-  "@t<landing.hero.secondary_cta>": "Hizmetleri keşfet",
-  "@t<landing.hero.title>": "Sağlıklı gülüşler sakin ve hassas bakımla başlar.",
-  "@t<landing.nav.doctor>": "Doktor",
-  "@t<landing.nav.services>": "Hizmetler",
-  "@t<landing.nav.visit>": "Ziyaret",
-  "@t<landing.services.description>": "Koruma, onarım ve güvenli günlük bakım için tasarlanmış odaklı diş hizmetleri.",
-  "@t<landing.services.eyebrow>": "Hizmetler",
-  "@t<landing.services.item_1.description>": "Uzun vadeli ağız sağlığını korumak için rutin muayeneler, temizlik ve erken yönlendirme.",
-  "@t<landing.services.item_1.title>": "Kontrol ve koruma",
-  "@t<landing.services.item_2.description>": "Konforu, işlevi ve doğal görünen sonuçları destekleyen dikkatli onarıcı tedaviler.",
-  "@t<landing.services.item_2.title>": "Onarıcı bakım",
-  "@t<landing.services.item_3.description>": "Temiz, dengeli ve doğal görünen estetik gülüş iyileştirmeleri.",
-  "@t<landing.services.item_3.title>": "Gülüş estetiği",
-  "@t<landing.services.item_4.description>": "İlk görüşmeden takibe kadar hastaya göre şekillenen tedavi planları.",
-  "@t<landing.services.item_4.title>": "Kişisel tedavi planları",
-  "@t<landing.services.title>": "Çoğu hastanın ihtiyacını karşılayan sade diş hizmetleri.",
-  "@t<landing.visit.cta>": "Başa dön",
-  "@t<landing.visit.description>": "Klinik deneyimi basit tutulur; böylece hasta görüşmeden tedaviye güvenle ilerler.",
-  "@t<landing.visit.eyebrow>": "Ziyaretiniz",
-  "@t<landing.visit.step_1.description>": "İhtiyaçlarınız, endişeleriniz ve hedefleriniz hakkında sakin bir konuşmayla başlayın.",
-  "@t<landing.visit.step_1.title>": "Görüşme",
-  "@t<landing.visit.step_2.description>": "Bulguların açık açıklamasını ve size uygun bir tedavi yolunu alın.",
-  "@t<landing.visit.step_2.title>": "Tedavi planı",
-  "@t<landing.visit.step_3.description>": "Konfor, hassasiyet ve güvenli takip önceliğiyle bakım sürecine devam edin.",
-  "@t<landing.visit.step_3.title>": "Rahat bakım",
-  "@t<landing.visit.title>": "İlk görüşmeden takibe kadar akıcı bir deneyim.",
-  "@t<not-found-page-back-button-text>": "Geri dön",
-  "@t<not-found-page-back-to-home>": "Ana Sayfa",
-  "@t<not-found-page-description>": "Aradığınız sayfa artık mevcut değil. Belki kaldırıldı ya da hiç orada değildi.",
-  "@t<not-found-page-title>": "Bulunamadı!",
-  "@t<switching-language-loading-screen-text>": "Dil değiştiriliyor...",
-  "@t<landing.header_subtitle>": "Modern diş kliniği",
-  "@t<home-description": "Dr. Zaid Rayan’in kisisel web sitesi; endodonti, kanal tedavisi ve sakin modern dis bakimina odaklanir.",
-  "@t<home-title": "Dr. Zaid Rayan | Endodontist",
+  "@t<home-title>": "Dr. Zaid Rayan | Endodontist",
   "@t<landing": {
+    "brand>": "Dr. Zaid Rayan",
+    "doctor": {
+      "description>": "Sam, Suriye'de dis hekimligi egitimi aldi ve 2025 yilinda mezun oldu. Ana uzmanlik alani endodontidir ve ozellikle kanal tedavisindeki becerisiyle taninir.",
+      "eyebrow>": "Doktor hakkinda",
+      "point_1>": "Sam, Suriye'de dis hekimligi egitimi aldi ve 2025 yilinda mezun oldu.",
+      "point_2>": "Endodonti alaninda uzmanlasmistir ve guclu odak noktasi kanal tedavisidir.",
+      "point_3>": "Ayni zamanda sakin ve acik sekilde anlatilan bir hasta deneyimiyle diger dis hizmetlerini de sunar.",
+      "title>": "Dr. Zaid Rayan, dikkatli ve modern kanal tedavisine odaklanan bir endodontisttir."
+    },
+    "footer": {
+      "note>": "Sade, sakin ve saglikli guluslere odakli."
+    },
     "header_subtitle>": "Endodontist",
     "hero": {
+      "description>": "Rutin kontroller, gulus iyilestirmeleri ve ilk gorusmeden itibaren anlasilir hissettiren tedavi planlari icin ozenli dis bakimi.",
       "eyebrow>": "Endodonti ve kanal tedavisi",
-      "title>": "Sakin ve hasta odakli bir yaklasimla hassas kanal tedavisi.",
-      "description>": "Bu kisisel site, ana uzmanlik alani kanal tedavisi olan endodontist Dr. Zaid Rayan’i tanitir; gerektiginde diger dis hekimligi hizmetleri de sunulur.",
       "highlight_1": {
-        "title>": "Uzman odak",
-        "description>": "Dis agrisi, sinir enfeksiyonu ve kanal tedavisi vakalarinin teshis ve tedavisinde ozel dikkat."
+        "description>": "Dis agrisi, sinir enfeksiyonu ve kanal tedavisi vakalarinin teshis ve tedavisinde ozel dikkat.",
+        "title>": "Uzman odak"
       },
       "highlight_2": {
-        "title>": "Net tedavi adimlari",
-        "description>": "Her vaka sade bir dille anlatilir; hasta sorunu, plani ve sonraki adimi net sekilde anlar."
+        "description>": "Her vaka sade bir dille anlatilir; hasta sorunu, plani ve sonraki adimi net sekilde anlar.",
+        "title>": "Net tedavi adimlari"
       },
       "highlight_3": {
-        "title>": "Ek dis hizmetleri",
-        "description>": "Diger dis hekimligi hizmetleri de sunulur, ancak ana uzmanlik alani endodonti ve kanal tedavisidir."
-      }
+        "description>": "Diger dis hekimligi hizmetleri de sunulur, ancak ana uzmanlik alani endodonti ve kanal tedavisidir.",
+        "title>": "Ek dis hizmetleri"
+      },
+      "primary_cta>": "Randevu al",
+      "secondary_cta>": "Hizmetleri kesfet",
+      "title>": "Saglikli gulusler sakin ve hassas bakimla baslar."
+    },
+    "nav": {
+      "doctor>": "Doktor",
+      "services>": "Hizmetler",
+      "visit>": "Ziyaret",
+      "contact>": "Iletisim"
     },
     "services": {
       "description>": "Temel uzmanlik alani kanal tedavisidir; gerektiginde tam bakim sunmak icin bunu destekleyen diger dis hizmetleri de vardir.",
+      "eyebrow>": "Hizmetler",
       "item_1": {
-        "title>": "Kanal tedavisi",
-        "description>": "Iltihapli veya enfekte dis sinirleri icin hassas ve sakin bir klinik yaklasimla uygulanan endodontik bakim."
+        "description>": "Iltihapli veya enfekte dis sinirleri icin hassas ve sakin bir klinik yaklasimla uygulanan endodontik bakim.",
+        "title>": "Kanal tedavisi"
       },
       "item_2": {
-        "title>": "Endodontik teshis",
-        "description>": "Dogru islemi belirlemeden once dis agrisi, pulpa durumu ve tedavi ihtiyacinin dikkatli sekilde degerlendirilmesi."
+        "description>": "Dogru islemi belirlemeden once dis agrisi, pulpa durumu ve tedavi ihtiyacinin dikkatli sekilde degerlendirilmesi.",
+        "title>": "Endodontik teshis"
       },
       "item_3": {
-        "title>": "Takip ve restorasyon yonlendirmesi",
-        "description>": "Tedavi sonrasinda net takip destegi ve gerekiyorsa sonraki restoratif adimlar icin yonlendirme."
+        "description>": "Tedavi sonrasinda net takip destegi ve gerekiyorsa sonraki restoratif adimlar icin yonlendirme.",
+        "title>": "Takip ve restorasyon yonlendirmesi"
       },
       "item_4": {
-        "title>": "Diger dis hizmetleri",
-        "description>": "Baska genel dis hekimligi hizmetleri de mevcuttur; ancak ana uzmanlik alanı kanal tedavisidir."
+        "description>": "Baska genel dis hekimligi hizmetleri de mevcuttur; ancak ana uzmanlik alani kanal tedavisidir.",
+        "title>": "Diger dis hizmetleri"
       },
       "title>": "Kanal tedavisi merkezli uzman endodonti bakimi."
     },
-    "doctor": {
-      "title>": "Dr. Zaid Rayan, dikkatli ve modern kanal tedavisine odaklanan bir endodontisttir.",
-      "description>": "Sam, Suriye’de dis hekimligi egitimi aldi ve 2025 yilinda mezun oldu. Ana uzmanlik alani endodontidir ve ozellikle kanal tedavisindeki becerisiyle taninir.",
-      "point_1>": "Sam, Suriye’de dis hekimligi egitimi aldi ve 2025 yilinda mezun oldu.",
-      "point_2>": "Endodonti alaninda uzmanlasmistir ve guclu odak noktasi kanal tedavisidir.",
-      "point_3>": "Ayni zamanda sakin ve acik sekilde anlatilan bir hasta deneyimiyle diger dis hizmetlerini de sunar."
-    },
     "visit": {
+      "cta>": "Basa don",
+      "description>": "Klinik deneyimi basit tutulur; boylece hasta gorusmeden tedaviye guvenle ilerler.",
+      "eyebrow>": "Ziyaretiniz",
+      "step_1": {
+        "description>": "Ihtiyaclariniz, endiseleriniz ve hedefleriniz hakkinda sakin bir konusmayla baslayin.",
+        "title>": "Gorusme"
+      },
       "step_2": {
-        "title>": "Endodontik planlama",
-        "description>": "Disin durumu ve kanal tedavisinin mi yoksa baska bir hizmetin mi dogru sonraki adim oldugu net bicimde aciklanir."
+        "description>": "Disin durumu ve kanal tedavisinin mi yoksa baska bir hizmetin mi dogru sonraki adim oldugu net bicimde aciklanir.",
+        "title>": "Endodontik planlama"
+      },
+      "step_3": {
+        "description>": "Konfor, hassasiyet ve guvenli takip onceligiyle bakim surecine devam edin.",
+        "title>": "Rahat bakim"
+      },
+      "title>": "Ilk gorusmeden takibe kadar akici bir deneyim."
+    },
+    "contact": {
+      "eyebrow>": "Randevu al",
+      "title>": "Mesaj gonderin ve randevu talebinizi iletin.",
+      "description>": "Bir soru sormak veya randevu talep etmek icin iletisim formunu kullanin. Mesajiniz dogrudan gonderilir ve takip icin guvenli sekilde kaydedilir.",
+      "helper_text>": "Kanal tedavisi, endodontik konsultasyon veya baska bir dis hizmeti icin bilgilerinizi buradan gonderebilir, klinigin sizinle iletisime gecmesini saglayabilirsiniz.",
+      "form": {
+        "full_name": {
+          "label>": "Ad soyad",
+          "placeholder>": "Adinizi ve soyadinizi girin"
+        },
+        "phone": {
+          "label>": "Telefon numarasi",
+          "placeholder>": "Telefon numaranizi girin"
+        },
+        "email": {
+          "label>": "E-posta adresi",
+          "placeholder>": "E-posta adresinizi girin"
+        },
+        "message": {
+          "label>": "Mesaj",
+          "placeholder>": "Ihtiyacinizi, belirtilerinizi veya hangi randevuyu almak istediginizi yazin"
+        },
+        "submit>": "Randevu talebi gonder",
+        "submitting>": "Gonderiliyor...",
+        "success>": "Mesajiniz basariyla gonderildi. Artik sizinle iletisime gecilebilir.",
+        "error>": "Mesajiniz gonderilirken bir hata olustu. Lutfen tekrar deneyin."
       }
     }
-  }
+  },
+  "@t<not-found-page-back-button-text>": "Geri don",
+  "@t<not-found-page-back-to-home>": "Ana Sayfa",
+  "@t<not-found-page-description>": "Aradiginiz sayfa artik mevcut degil. Belki kaldirildi ya da hic orada degildi.",
+  "@t<not-found-page-title>": "Bulunamadi!",
+  "@t<switching-language-loading-screen-text>": "Dil degistiriliyor..."
 }

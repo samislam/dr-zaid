@@ -1,7 +1,9 @@
 import { Elysia } from 'elysia'
+import { appointmentsModule } from './appointments/appointments.module'
 import { exampleModule } from './example/example.module'
 
 export const app = new Elysia({ prefix: '/api' }) //
+  .use(appointmentsModule)
   .use(exampleModule)
 
 export const GET = app.fetch

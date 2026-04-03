@@ -20,3 +20,12 @@ model Example {
   email String  @unique
   name  String?
 }
+
+model AppointmentInquiry {
+  id        String   @id @default(uuid())
+  fullName  String
+  email     String
+  phone     String
+  message   String
+  createdAt DateTime @default(now())
+}

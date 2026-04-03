@@ -47,6 +47,25 @@ export interface LandingContent {
     steps: LandingStep[]
     cta: string
   }
+  contact: {
+    id: string
+    eyebrow: string
+    title: string
+    description: string
+    helperText: string
+    fullNameLabel: string
+    fullNamePlaceholder: string
+    phoneLabel: string
+    phonePlaceholder: string
+    emailLabel: string
+    emailPlaceholder: string
+    messageLabel: string
+    messagePlaceholder: string
+    submitLabel: string
+    submittingText: string
+    successMessage: string
+    errorMessage: string
+  }
   footer: {
     note: string
   }

@@ -5,15 +5,43 @@
   "@t<error-page-title>": "Oops!",
   "@t<error-page-tryagain-button-text>": "Try again",
   "@t<home-description": "A personal website for Dr. Zaid Rayan, focused on endodontics, root canal treatment, and calm modern dental care.",
-  "@t<home-description>": "A calm, modern dental clinic for checkups, smile care, and everyday oral health.",
+  "@t<home-description>": "A personal website for Dr. Zaid Rayan, focused on endodontics, root canal treatment, and calm modern dental care.",
   "@t<home_meta": {
     "description>": "Discover Dr. Zaid Rayan's personal website, focused on endodontics, root canal treatment, and patient-first dental care.",
     "title>": "Dr. Zaid Rayan | Endodontist"
   },
   "@t<home-title": "Dr. Zaid Rayan | Endodontist",
-  "@t<home-title>": "Dr. Zaid Rayan Dental Clinic",
+  "@t<home-title>": "Dr. Zaid Rayan | Endodontist",
   "@t<landing": {
     "brand>": "Dr. Zaid Rayan",
+    "contact": {
+      "description>": "Use the contact form to ask a question or request an appointment. Your message will be sent directly and saved securely for follow-up.",
+      "eyebrow>": "Book an appointment",
+      "form": {
+        "email": {
+          "label>": "Email address",
+          "placeholder>": "Enter your email address"
+        },
+        "error>": "Something went wrong while sending your message. Please try again.",
+        "full_name": {
+          "label>": "Full name",
+          "placeholder>": "Enter your full name"
+        },
+        "message": {
+          "label>": "Message",
+          "placeholder>": "Tell us what you need, your symptoms, or the type of appointment you want to book"
+        },
+        "phone": {
+          "label>": "Phone number",
+          "placeholder>": "Enter your phone number"
+        },
+        "submit>": "Send appointment request",
+        "submitting>": "Sending...",
+        "success>": "Your message has been sent successfully. We can now follow up with you."
+      },
+      "helper_text>": "For root canal treatment, endodontic consultation, or any other dental service, send your details here and the clinic can follow up with you.",
+      "title>": "Send a message and request your appointment."
+    },
     "doctor": {
       "description>": "He studied dentistry in Damascus, Syria, and graduated in 2025. His main specialization is endodontics, with root canal treatment as the area he is especially known for.",
       "eyebrow>": "About the doctor",
@@ -27,7 +55,7 @@
     },
     "header_subtitle>": "Endodontist",
     "hero": {
-      "description>": "This personal website introduces Dr. Zaid Rayan, an endodontist whose main specialty is root canal treatment, with additional dental services available when needed.",
+      "description>": "Thoughtful dental care for routine checkups, smile improvements, and treatment plans that feel clear from the first conversation.",
       "eyebrow>": "Endodontics & root canal care",
       "highlight_1": {
         "description>": "Special attention to diagnosing and treating tooth pain, nerve infections, and root canal cases with precision.",
@@ -41,11 +69,12 @@
         "description>": "Other dental services are available too, while endodontics and RCT remain the main area of specialization.",
         "title>": "Broader dental care"
       },
-      "primary_cta>": "See how visits work",
+      "primary_cta>": "Book an appointment",
       "secondary_cta>": "Explore services",
-      "title>": "Precise root canal treatment with a calm, patient-first approach."
+      "title>": "Healthy smiles start with calm, precise care."
     },
     "nav": {
+      "contact>": "Contact",
       "doctor>": "Doctor",
       "services>": "Services",
       "visit>": "Visit"

@@ -27,7 +27,7 @@ export const HeroSection = (props: HeroSectionProps) => {
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="bg-emerald-600 text-white hover:bg-emerald-700">
-              <Link href="#visit">{hero.primaryCta}</Link>
+              <Link href="#contact">{hero.primaryCta}</Link>
             </Button>
             <Button
               asChild
