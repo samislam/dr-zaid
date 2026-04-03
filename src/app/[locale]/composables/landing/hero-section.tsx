@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { Button } from '@/components/ui/shadcnui/button'
 import personalPicture from '@/media/personal-picture.jpeg'
+import { ScrollLink } from '@/components/ui/samislam/scroll-link'
 import { LandingContent } from './types'
 
 interface HeroSectionProps {
@@ -27,7 +27,7 @@ export const HeroSection = (props: HeroSectionProps) => {
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="bg-emerald-600 text-white hover:bg-emerald-700">
-              <Link href="#contact">{hero.primaryCta}</Link>
+              <ScrollLink hash="#contact">{hero.primaryCta}</ScrollLink>
             </Button>
             <Button
               asChild
@@ -35,7 +35,7 @@ export const HeroSection = (props: HeroSectionProps) => {
               variant="outline"
               className="border-slate-300 bg-white/70 dark:border-white/15 dark:bg-white/5"
             >
-              <Link href="#services">{hero.secondaryCta}</Link>
+              <ScrollLink hash="#services">{hero.secondaryCta}</ScrollLink>
             </Button>
           </div>
           <div className="grid gap-3 sm:grid-cols-3">

@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import { Button } from '@/components/ui/shadcnui/button'
+import { ScrollLink } from '@/components/ui/samislam/scroll-link'
 import { SectionHeading } from './section-heading'
 import { LandingContent } from './types'
 
@@ -39,7 +39,7 @@ export const VisitSection = (props: VisitSectionProps) => {
 
         <div>
           <Button asChild size="lg" className="bg-emerald-600 text-white hover:bg-emerald-700">
-            <Link href="#home">{visit.cta}</Link>
+            <ScrollLink hash="#home">{visit.cta}</ScrollLink>
           </Button>
         </div>
       </div>
