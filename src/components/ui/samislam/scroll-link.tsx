@@ -1,12 +1,12 @@
 'use client'
 
-import { PropsWithChildren } from 'react'
 import { useScroll } from '@/hooks/use-scroll'
 import { Link } from '@/lib/next-intl/navigation'
 import { useFullPath } from '@/hooks/use-fullpath'
+import { ComponentPropsWithoutRef, MouseEvent } from 'react'
 
 /** Props for the {@link ScrollLink} component. */
-export interface ScrollLinkProps extends PropsWithChildren {
+export interface ScrollLinkProps extends Omit<ComponentPropsWithoutRef<typeof Link>, 'href'> {
   /** The ID or hash of the section to scroll to. Example: `"contact"` or `"#contact"`. */
   hash: string
 }
@@ -24,16 +24,19 @@ export interface ScrollLinkProps extends PropsWithChildren {
  *   ```
  */
 export const ScrollLink = (props: ScrollLinkProps) => {
-  const { hash, children } = props
+  const { hash, children, onClick, ...rest } = props
   const [, scroll] = useScroll()
   const fullPath = useFullPath()
   const id = hash.startsWith('#') ? hash.slice(1) : hash
 
   return (
     <Link
+      {...rest}
       href={`${fullPath}#${id}`}
       scroll={false}
       onClick={(e) => {
+        onClick?.(e as MouseEvent<HTMLAnchorElement>)
+        if (e.defaultPrevented) return
         e.preventDefault()
         scroll(id)
         history.replaceState(null, '', `${fullPath}#${id}`)
