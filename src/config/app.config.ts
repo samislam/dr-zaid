@@ -11,8 +11,8 @@ export default createAppConfig({
   defaultLanguage: 'en',
   fallbackLanguage: 'en',
   languages: ['en', 'ar', 'tr'],
-  appName: 'Next-web website template',
-  appDescription: concat('@Next-web web template'),
+  appName: 'Dr-zaid dentist | Damascus - Syria',
+  appDescription: concat("@Dr-zaid ra'yyan's official website | الدكتور أحمد زيد الرعيان"),
   uploadDir: path.resolve(process.cwd(), 'storage', 'uploads'),
   i18nRoutingDef: {
     localePrefix: 'never', // defaults to have no URL prefix (no /en/users, just /users)
